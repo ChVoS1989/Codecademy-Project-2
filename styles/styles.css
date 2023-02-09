@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -6,7 +6,7 @@ body{
     opacity: 0.9;
 }
 
-header{
+header {
     height: 69px;
     position: fixed;
     background-color: black;
@@ -14,30 +14,30 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
 
-@media (max-width: 600px){
-    header{
+@media (max-width: 600px) {
+    header {
         display: block;
         height: 100px;
         text-align: center;
     }
-    
-    h1{
+
+    h1 {
         margin-top: 10px;
     }
 
 }
 
-h1{
+h1 {
     height: 50px;
     font-family: 'Great Vibes', sans-serif;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 
-ul{
+ul {
     list-style: none;
     display: inline;
     padding: 0;
@@ -45,17 +45,17 @@ ul{
 
 }
 
-nav li{
+nav li {
     display: inline;
 }
 
-nav a{
+nav a {
     color: seashell;
 }
 
-main{
+main {
     height: 700px;
-    background-image: url(/images/img-mission-background.jpg);
+    background-image: url(../images/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,39 +64,39 @@ main{
     text-align: center;
 }
 
-.mission{
+.mission {
     background-color: black;
     width: 100vw;
-    
-    
+
+
 }
 
-.tea-of-month{
+.tea-of-month {
     max-width: 1000px;
     text-align: center;
     margin: auto;
 }
 
-.container-images{
+.container-images {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
 }
 
-img{
+img {
     width: 300px;
     height: 200px;
 }
 
-figcaption{
+figcaption {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.locations{
+.locations {
     min-height: 500px;
-    background-image: url(/images/img-locations-background.jpg);
+    background-image: url(../images/img-locations-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -104,43 +104,43 @@ figcaption{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    
+
+
 }
 
-.container-locations{
+.container-locations {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-.locations>h2{
+.locations>h2 {
     margin-bottom: 15px;
     margin-top: 5%;
 }
 
-.locations div>div{
+.locations div>div {
     width: 300px;
     background-color: black;
     margin: 10px 20px;
-    
+
 }
 
-.oakdale{
-    opacity:1;
+.oakdale {
+    opacity: 1;
 }
 
-p{
+p {
     line-height: 2;
 }
 
-footer{
+footer {
     text-align: center;
     height: 200px;
 }
 
 
-.copyright{
+.copyright {
     text-align: left;
     margin-left: 20px;
 }
